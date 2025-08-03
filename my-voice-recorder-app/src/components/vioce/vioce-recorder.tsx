@@ -256,7 +256,7 @@ const VoiceRecorder: React.FC<VoiceRecorderProps> = ({
         </CardTitle>
         <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-blue-400">
           Chunk By: <span className="text-purple-700">{chunkBy}</span>
-          {chunkBy === "silence" ? (
+          {chunkBy === "time" ? (
             <span className="text-purple-700"> {chunkDurationMs} ms</span>
           ) : (
             ""
