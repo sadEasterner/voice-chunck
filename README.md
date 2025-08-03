@@ -1,31 +1,31 @@
-🎙️ VoiceRecorder Component
-A React component for recording audio in chunks, either:
+# 🎙️ VoiceRecorder Component
 
-⏱️ Fixed time intervals (e.g. every 5 seconds), or
+A reusable React + TypeScript component that records audio in chunks based on:
 
-🔇 Automatically on silence (e.g. after 1.5 seconds of no speech)
+- ⏱️ **Fixed time intervals** (e.g. every 5 seconds), or  
+- 🔇 **Silence detection** (e.g. when the user stops speaking for 1.5 seconds)
 
-Each chunk is uploaded as a .webm file to a server endpoint.
-Visual feedback via waveform is provided in real-time.
+Each audio chunk is uploaded to a configurable server endpoint.
 
-📦 Features
-✅ Chunk audio based on time or silence
+---
 
-✅ Toggle chunking strategy with a prop
+## ✨ Features
 
-✅ Live waveform visualization using <canvas>
+- ✅ Chunk audio by **time** or **silence**
+- ✅ Toggle strategy via a prop: `chunkBy="time"` or `chunkBy="silence"`
+- ✅ Live audio waveform visualization via `<canvas>`
+- ✅ Upload each chunk automatically as `.webm`
+- ✅ Grace period before detecting silence
+- ✅ TypeScript support
+- ✅ Full cleanup and resource management
 
-✅ Upload each chunk automatically
+---
 
-✅ React best practices & cleanup
+## 📦 Installation
 
-✅ Customizable chunk durations and thresholds
+Clone or copy `VoiceRecorder.tsx` into your project, e.g.:
 
-🚀 Installation
-This is a standalone component — just copy VoiceRecorder.tsx into your components/ directory.
 
-Install required dependencies (if not already in your project):
-```npm install react```
 
 
 💡 Usage:
