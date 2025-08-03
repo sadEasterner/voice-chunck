@@ -21,7 +21,7 @@ Each audio chunk is uploaded to a configurable server endpoint.
 
 ---
 
-## 📦 Installation
+
 
 Clone or copy `VoiceRecorder.tsx` into your project, e.g.:
 
