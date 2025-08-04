@@ -1,0 +1,112 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background: #f4f4f4;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+  margin: 1rem 0;
+}
+
+button {
+  margin-right: 10px;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  display: block;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease;
+}
+
+#startBtn {
+  background-color: #007bff;
+  color: white;
+}
+
+#startBtn:hover {
+  background-color: #0069d9;
+  transform: scale(1.02);
+}
+
+#stopBtn {
+  background-color: #dc3545;
+  color: white;
+}
+
+#stopBtn:hover {
+  background-color: #c82333;
+  transform: scale(1.02);
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  transform: none;
+}
+select {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  color: #333;
+  appearance: none;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+.recorder button {
+  padding: 0.6rem 1.2rem;
+  margin: 0.5rem 0.5rem 1rem 0;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.start-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.start-btn:hover {
+  background-color: #0069d9;
+}
+
+.stop-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.stop-btn:hover {
+  background-color: #c82333;
+}
